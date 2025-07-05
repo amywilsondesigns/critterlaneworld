@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Critter Lane World</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #fefcf9;
+      color: #333;
+    }
+    header {
+      background-color: #f9d342;
+      padding: 2rem;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 2.5rem;
+      margin: 0;
+    }
+    section {
+      padding: 2rem;
+      max-width: 800px;
+      margin: auto;
+    }
+    .section-title {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      color: #e26d5c;
+    }
+    .character-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 1rem;
+      text-align: center;
+    }
+    .character-grid img {
+      width: 100%;
+      border-radius: 12px;
+    }
+    .book-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+      gap: 1rem;
+      text-align: center;
+    }
+    .book-grid img {
+      width: 100%;
+      border: 2px solid #eee;
+      border-radius: 8px;
+    }
+    .email-signup {
+      background-color: #fff2d7;
+      padding: 1.5rem;
+      border-radius: 12px;
+      margin-top: 2rem;
+    }
+    input[type=email] {
+      padding: 0.5rem;
+      width: 70%;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-size: 1rem;
+    }
+    button {
+      padding: 0.5rem 1rem;
+      background-color: #f78c6b;
+      border: none;
+      color: white;
+      font-size: 1rem;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    footer {
+      text-align: center;
+      font-size: 0.9rem;
+      color: #777;
+      padding: 1rem;
+      background: #f1f1f1;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Welcome to Critter Lane World!</h1>
+    <p>Where Kindness, Courage, and Curiosity Travel the Globe!</p>
+  </header>
+
+  <section>
+    <h2 class="section-title">About the Critter Lane Series</h2>
+    <p>
+      The Critter Lane Travel Adventures are charming chapter books for children ages 6–10,
+      following lovable animal characters as they explore countries, cultures, and friendships
+      around the world. From London to Mexico to China, every story is packed with wonder,
+      laughter, and life lessons.
+    </p>
+  </section>
+
+  <section>
+    <h2 class="section-title">Meet the Characters</h2>
+    <div class="character-grid">
+      <div>
+        <img src="https://yourimageurl.com/amy.jpg" alt="Amy Alligator" />
+        <p>Amy Alligator</p>
+      </div>
+      <div>
+        <img src="https://yourimageurl.com/marley.jpg" alt="Marley Mouse" />
+        <p>Marley Mouse</p>
+      </div>
+      <div>
+        <img src="https://yourimageurl.com/conrad.jpg" alt="Conrad Coyote" />
+        <p>Conrad Coyote</p>
+      </div>
+      <div>
+        <img src="https://yourimageurl.com/piper.jpg" alt="Piper Panda" />
+        <p>Piper Panda</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2 class="section-title">Book Sneak Peeks</h2>
+    <div class="book-grid">
+      <div>
+        <img src="https://yourimageurl.com/amy-cover.jpg" alt="Amy Alligator Visits England" />
+        <p><em>Amy Alligator Visits England</em></p>
+      </div>
+      <div>
+        <img src="https://yourimageurl.com/conrad-cover.jpg" alt="Conrad Coyote Visits Mexico" />
+        <p><em>Conrad Coyote Visits Mexico</em></p>
+      </div>
+      <div>
+        <img src="https://yourimageurl.com/marley-cover.jpg" alt="Marley Mouse Visits France" />
+        <p><em>Marley Mouse Visits France</em></p>
+      </div>
+    </div>
+  </section>
+
+  <section class="email-signup">
+    <h2>Join the Critter Crew!</h2>
+    <p>Want book updates, free coloring pages, and adventure previews?</p>
+    <form action="mailto:critterlaneadventures@gmail.com" method="post" enctype="text/plain">
+      <input type="email" name="email" placeholder="Your email address" required />
+      <button type="submit">Sign Up</button>
+    </form>
+  </section>
+
+  <footer>
+    &copy; 2025 Critter Lane World. All rights reserved.
+  </footer>
+</body>
+</html>
